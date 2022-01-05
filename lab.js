@@ -63,7 +63,7 @@ let rain = false
 console.log(temperature, rain)
 if (temperature >= 80 && rain === false) {
   console.log(`One should wear a t-shirt and shorts.`);
-} else if ( rain === false && (temperature > 60 || temperature > 80)) {
+} else if ( rain === false && (temperature > 60 && temperature > 80)) {
   console.log(`One should wear a t-shirt and not take an umbrella`)
 } else if ( temperature < 60 && rain === false) {
   console.log(`One should wear a jacket with no umbrella.`);
@@ -121,7 +121,10 @@ let passingScore = 7
 */
 
 //CODE HERE
-
+while (score < 7) {
+  console.log(`You're score is too low`);
+  score += 1
+}
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
