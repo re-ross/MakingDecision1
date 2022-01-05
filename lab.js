@@ -80,9 +80,9 @@ if (temperature >= 80 && rain === false) {
 //CODE HERE
 // let i = 0;
 
-// for (let i = 0; i < 10; i++) {
-//   console.log(`hello`);
-// }
+for (let i = 0; i < 10; i++) {
+  console.log(`hello`);
+}
 
 ////////// PROBLEM 6 //////////
 
@@ -91,7 +91,11 @@ if (temperature >= 80 && rain === false) {
 */
 
 //CODE HERE
+let i = 0;
 
+for (let i = 1; i < 11; i++) {
+  console.log(i);
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -100,6 +104,12 @@ if (temperature >= 80 && rain === false) {
 */
 
 //CODE HERE
+let j = 0;
+
+for (let j = 10; j > 0; j--) {
+  console.log(j);
+}
+
 
 let score = 0
 let passingScore = 7
